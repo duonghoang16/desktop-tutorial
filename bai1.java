@@ -1,7 +1,18 @@
-void main() {
+package chuong1;
 
-    IO.println("xin chào mình mới học java nè");
-    System.out.println("xin chào ông hàng xóm");
-    System.out.println("xin chào ông hàng xóm");
+import java.util.Scanner;
+
+public class Bai1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Nhập n: ");
+        int n = sc.nextInt();
+
+        int S = 0;
+        for (int i = 1; i <= n; i++) {
+            S = S + i;
+        }
+
+        System.out.println("S = " + S);
+    }
 }
-

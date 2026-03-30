@@ -1,16 +1,17 @@
-public class bai2 {
-    static void main() {
-        System.out.println("dòng 1");
-        System.out.println("dòng 2");
-        System.out.println("dòng 3");
-        System.out.print("dòng 4");
-        System.out.print("dòng 5");
-        System.out.println("");
-        System.out.println("Cộng hòa xã hội chủ nghĩa Việt Nam");
-        System.out.println("\tĐộc lập - tự do - hạnh phúc");
-        System.out.println("Sông cầu\ncó đôi");
-        System.out.println("có người nói \"cho đi là\" ");
+package chuong1;
+
+import java.util.Scanner;
+
+public class Bai2 { public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Nhập n: ");
+    int n = sc.nextInt();
+
+    int S = 0;
+    for (int i = 1; i <= n; i++) {
+        S = S + i * i;
     }
 
-
+    System.out.println("S = " + S);
+}
 }

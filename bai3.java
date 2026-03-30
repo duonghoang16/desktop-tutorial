@@ -1,9 +1,17 @@
-public class bai3 {
-    static void main() {
-        // đây là ghi chú 1 dòng
-        System.out.println("dòng 1");
-        System.out.println("dòng 2");
-        System.out.println("dòng 3");
+package chuong1;
+import java.util.Scanner;
 
-    }
+public class Bai3 { public static void main(String[] args) {
+
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Nhập n: ");
+    int n = sc.nextInt();
+
+    double S = 0;
+    for (int i = 1; i <= n; i++) {
+        S = S + 1.0 / i;
+
+}
+    System.out.println("S = " + S);
+}
 }
